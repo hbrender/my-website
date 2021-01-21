@@ -16,7 +16,7 @@ function Navbar() {
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a className="resume" href="#resume">Resume</a></li>
+          <li><a target="_blank" rel="noreferrer" className="resume" href="resume.pdf">Resume</a></li>
         </ul>
         <div onClick={handleClick}><i className="fas fa-bars"></i></div>
       </nav>
