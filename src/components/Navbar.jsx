@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <nav className={burgerClicked ? "nav-active" : ""}>
-        <img className="logo" src="/images/logo.png" alt="Site icon"></img>
+        <img className="logo" src="images/logo.png" alt="Site icon"></img>
         <ul className={burgerClicked ? "nav-links-active nav-links" : "nav-links"}>
           <li><a href="#about">about</a></li>
           <li><a href="#projects">projects</a></li>
