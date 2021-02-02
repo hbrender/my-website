@@ -3,7 +3,7 @@ import React from 'react';
 function Home() {
   return (
     <div className="home">
-      <div className="home-text col-8">
+      <div className="home-text">
         <h1> 
           <span className="name">
             <span className="first-letter">h</span>anna
@@ -17,7 +17,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="home-img col-4">
+      <div className="home-img">
         <img className="laptop-img" src="images/laptopanim4.gif" alt="coding gif" />
       </div>
     </div>
