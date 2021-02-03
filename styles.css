@@ -49,10 +49,10 @@ h2 .first-letter {
 
 [class*="col-"] {
   float: left;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
-/* Navbar */
+/* Navbar ------------------------------------------------------------ */
 
 nav {
   display:flex;
@@ -65,6 +65,7 @@ nav {
 
 .logo {
   width: 40px;
+  margin-left: 1.5%;
 }
 
 /* .brand {
@@ -104,91 +105,91 @@ nav {
   position: relative;
 }
 
-@media screen and (max-width: 768px) {
-  .fa-bars {
-    display: block;
-    cursor: pointer;
-  }
-
-  .nav-links {
-    padding-top: 60px;
-    position: fixed;
-    right: 0;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    opacity: 0;
-    width: 280px;
-    justify-content: unset;
-  }
-
-  .nav-links li {
-    padding: 20px 15px;
-  }
-
-  .nav-links a {
-    color: #eee;
-  }
-
-  .nav-links-active {
-    background-color:#577460ee;
-    height: 100%;
-    opacity: 1;
-  }
-} 
-
-@media screen and (max-width: 480px) { 
-  .brand {
-    font-size: 1.5rem;
-  }
-
-  .nav-links {
-    font-size: 0.7rem;
-  }
+.fa-bars-active {
+  position: fixed;
+  margin: 16px;
+  right: 0;
 }
 
-@media screen and (max-width: 320px) { 
-  .brand {
-    font-size: 1rem;
-  }
-
-  .nav-links {
-    font-size: 0.5rem;
-  }
-}
-
-/* Home */
+/* Home --------------------------------------------------------------- */
 
 .home {
-  text-align: center;  
+  margin-top: 15vh;
   height: 100vh;
-  justify-self: center;
+  /* justify-self: center; */
+}
+
+.home-text {
+  width: 66.66%;
+  float: left;
+}
+
+.home-img {
+  width: 33.33%;
+  float: left;
 }
 
 .name {
-  font-size: 3rem;
+  font-size: 6vw;
+  /* font-size: 5rem; */
   letter-spacing: 6px;
-}
-
-.home p {
-  font-size: 0.9rem;
   margin: 3% 5%;
-  letter-spacing: 3px;
 }
 
 .home .first-letter{
-  font-size: 4.5rem;
+  /* font-size: 6.5rem; */
+  font-size: 7.4vw;
   padding-right: 6px;
 }
 
-/* About */
+.laptop-img {
+  max-width: 100%;
+  padding-right: 5%;
+}
+
+.home p {
+  font-size: 1.1rem;
+  margin: 3% 5%;
+  letter-spacing: 3px;
+  line-height: 2rem;
+  padding-right: 2%;
+}
+
+.home-buttons {
+  margin: 5%;
+  position: relative;
+  z-index: -1;
+}
+
+.home-buttons a {
+  display: inline-block;
+  padding: 12px 15px;
+  margin-right: 5%;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border-radius: 7px;
+  font-size: 1rem;
+}
+
+.button-light {
+  background-color: #eee;
+  color: #577460ee;
+  border: solid 2px #577460ee;
+}
+
+.button-dark {
+  background-color:  #84af91de;
+  color: #eee;
+}
+
+/* About --------------------------------------------------------------- */
 
 .about {
 
 }
 
-/* Footer */
+/* Footer --------------------------------------------------------------- */
 
 footer {
   background-color: #8f8f8f;
@@ -221,4 +222,112 @@ footer {
 
 .social-icon:hover {
   color: #444343;
+}
+
+/* Media queries --------------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+  /* Navbar */
+
+  .fa-bars {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    padding-top: 60px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    opacity: 0;
+    width: 280px;
+    justify-content: unset;
+  }
+
+  .nav-links li {
+    padding: 20px 15px;
+  }
+
+  .nav-links a {
+    color: #eee;
+  }
+
+  .nav-links-active {
+    background-color:#577460ee;
+    height: 100%;
+    opacity: 1;
+  }
+
+  /* Home */
+
+  .home {
+    margin-top: 8vh;
+    height: 100vh;
+    justify-self: center;
+  }
+  
+  .home-text {
+    width: 100%;
+    /* text-align: center; */
+  }
+  
+  .home-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .laptop-img {
+    padding: 5%;
+  }
+
+  .name {
+    font-size: 9vw;
+    /* font-size: 5rem; */
+    letter-spacing: 3px;
+  }
+  
+  .home .first-letter{
+    /* font-size: 6.5rem; */
+    font-size: 10.4vw;
+    padding-right: 6px;
+  }  
+
+  .home p {
+    letter-spacing: 1px;
+  }
+} 
+
+@media screen and (max-width: 480px) { 
+  /* Navbar */
+  .brand {
+    font-size: 1.5rem;
+  }
+
+  .nav-links {
+    font-size: 1rem;
+  }
+  
+  /* Home */
+  .home p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+
+}
+
+@media screen and (max-width: 320px) { 
+  /* Navbar */
+  .brand {
+    font-size: 1rem;
+  }
+
+  .nav-links {
+    font-size: 1rem;
+  }
+  
+  /* Home */
+
 }
