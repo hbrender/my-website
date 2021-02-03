@@ -107,7 +107,7 @@ nav {
 
 .fa-bars-active {
   position: fixed;
-  margin: 16px;
+  padding: 16px;
   right: 0;
 }
 
