@@ -224,7 +224,7 @@ footer {
 
 /* Media queries --------------------------------------------------------- */
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   /* Navbar */
 
   .fa-bars {
