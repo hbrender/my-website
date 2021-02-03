@@ -157,8 +157,6 @@ nav {
 
 .home-buttons {
   margin: 5%;
-  position: relative;
-  z-index: -1;
 }
 
 .home-buttons a {
