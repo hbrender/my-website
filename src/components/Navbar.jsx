@@ -4,7 +4,6 @@ function Navbar() {
   const [burgerClicked, setBurgerClicked] = useState(false);
 
   function handleClick() {
-    console.log("clicked")
     setBurgerClicked(!burgerClicked);
   }
 
@@ -18,7 +17,7 @@ function Navbar() {
           <li><a href="#contact">contact</a></li>
           <li><a target="_blank" rel="noreferrer" className="resume" href="resume.pdf">resume</a></li>
         </ul>
-        <div onClick={handleClick}><i className="fas fa-bars"></i></div>
+        <div className={burgerClicked ? "fa-bars-active" : ""} onClick={handleClick}><i className="fas fa-bars"></i></div>
       </nav>
     </div>
   )

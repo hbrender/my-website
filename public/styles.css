@@ -52,7 +52,7 @@ h2 .first-letter {
   /* border: 1px solid red; */
 }
 
-/* Navbar */
+/* Navbar ------------------------------------------------------------ */
 
 nav {
   display:flex;
@@ -105,7 +105,13 @@ nav {
   position: relative;
 }
 
-/* Home */
+.fa-bars-active {
+  position: fixed;
+  margin: 16px;
+  right: 0;
+}
+
+/* Home --------------------------------------------------------------- */
 
 .home {
   margin-top: 15vh;
@@ -150,19 +156,20 @@ nav {
 }
 
 .home-buttons {
-  margin: 2%;
+  margin: 5%;
   position: relative;
+  z-index: -1;
 }
 
 .home-buttons a {
   display: inline-block;
   padding: 12px 15px;
-  margin: 20px 20px;
+  margin-right: 5%;
   text-align: center;
   text-decoration: none;
   letter-spacing: 2px;
   border-radius: 7px;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .button-light {
@@ -176,13 +183,13 @@ nav {
   color: #eee;
 }
 
-/* About */
+/* About --------------------------------------------------------------- */
 
 .about {
 
 }
 
-/* Footer */
+/* Footer --------------------------------------------------------------- */
 
 footer {
   background-color: #8f8f8f;
@@ -217,7 +224,7 @@ footer {
   color: #444343;
 }
 
-/* Media queries */
+/* Media queries --------------------------------------------------------- */
 
 @media screen and (max-width: 768px) {
   /* Navbar */
