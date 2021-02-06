@@ -12,8 +12,8 @@ function Home() {
         </h1>
         <p>Hi, I am a software developer based in Seattle, WA and I have a passion for creative problem solving and optimizing user experience with software.</p>
         <div className="home-buttons">
-          <a className="button-dark" href="mailto:hbrender615@gmail.com">get in touch</a>
-          <a className="button-light" target="_blank" rel="noreferrer" href="resume.pdf">resume</a>
+          <a className="button button-dark" href="mailto:hbrender615@gmail.com">get in touch</a>
+          <a className="button button-light" target="_blank" rel="noreferrer" href="resume.pdf">resume</a>
         </div>
       </div>
 

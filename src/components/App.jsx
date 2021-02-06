@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import About from './About';
 import Contact from './Contact';
 import Home from './Home';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      {/* <Contact /> */}
+      <Projects />
+      <Contact />
       <Footer />
     </div>);
 }

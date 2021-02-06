@@ -28,8 +28,27 @@ a {
   color: black;
 }
 
+input { 
+  font-size: 1rem; 
+  font-family: "Montserrat", sans-serif;
+}
+
+textarea {
+  font-size: 1rem; 
+  font-family: "Montserrat", sans-serif;
+  resize: none;
+}
+
+.light {
+  background-color: #eee;
+}
+
 .light p {
   color:#7c7c7c;
+}
+
+.dark {
+  background-color: #84af9148;;
 }
 
 .dark p {
@@ -45,7 +64,17 @@ h2 .first-letter {
   padding-right: 4px;
 }
 
-/* Columns */
+.button {
+  display: inline-block;
+  padding: 12px 15px;
+  margin-right: 5%;
+  text-align: center;
+  letter-spacing: 2px;
+  border-radius: 7px;
+  font-size: 1rem;
+}
+
+/* Columns
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -63,7 +92,7 @@ h2 .first-letter {
 [class*="col-"] {
   float: left;
   /* border: 1px solid red; */
-}
+/* } */ 
 
 /* Navbar ------------------------------------------------------------ */
 
@@ -171,7 +200,7 @@ nav {
   margin: 5%;
 }
 
-.home-buttons a {
+/* .home-buttons a {
   display: inline-block;
   padding: 12px 15px;
   margin-right: 5%;
@@ -179,7 +208,7 @@ nav {
   letter-spacing: 2px;
   border-radius: 7px;
   font-size: 1rem;
-}
+} */
 
 .button-light {
   background-color: #eee;
@@ -198,7 +227,7 @@ nav {
   display: inline-block;
   padding: 3% 5%;
   /* height: 100vh; */
-  background-color:  #84af9148;
+  /* background-color:  #84af9148; */
 }
 
 .about-content {
@@ -227,6 +256,50 @@ nav {
 
 #about a:hover {
   text-decoration: underline;
+}
+
+/* Projects --------------------------------------------------------------- */
+
+#projects {
+  display: inline-block;
+  width: 100%;
+  padding: 3% 5%;
+}
+
+/* Contact --------------------------------------------------------------- */
+
+#contact {
+  /* display: inline-block; */
+  width: 100%;
+  padding: 3% 5%;
+}
+
+#contact .button {
+  border: none;
+  letter-spacing: 8px;
+}
+
+.contact-content {
+  border: solid 1px #eee;
+  border-radius: 5px;
+  padding: 7px 10px;
+}
+
+.contact-email {
+  width: 49%;
+  margin-top: 20px;
+  margin-right: 1%;
+}
+
+.contact-subject {
+  width: 49%;
+  margin-top: 20px;
+  margin-left: 1%;
+}
+
+.contact-message {
+  width: 100%;
+  margin: 20px 0px;
 }
 
 /* Footer --------------------------------------------------------------- */
@@ -361,6 +434,17 @@ footer {
   .about-img {
     width: 100%;
     padding: 2% 10%;
+  }
+
+  /* Contact */
+  .contact-email {
+    width: 100%;
+    margin-right: 0;
+  }
+  
+  .contact-subject {
+    width: 100%;;
+    margin-left: 0;
   }
 } 
 
