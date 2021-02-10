@@ -21,6 +21,7 @@ h2 {
   font-size: 3rem;
   /* font-size: 5rem; */
   letter-spacing: 6px;
+  padding-bottom: 3%;
 }
 
 a {
@@ -242,7 +243,7 @@ nav {
 }
 
 #about p {
-  padding: 3% 2% 3% 0%;
+  padding: 0% 2% 3% 0%;
   line-height: 1.5rem;
 }
 
@@ -264,6 +265,84 @@ nav {
   display: inline-block;
   width: 100%;
   padding: 3% 5%;
+}
+
+/* Project --------------------------------------------------------------- */
+
+.project {
+  background-color: #84af91de;
+  padding: 2% 3%;
+  border-radius: 20px;
+  width: 48%;
+  margin: 1%;
+  float: left;
+}
+
+.project h3 {
+  font-family: 'Lexend Mega', sans-serif;
+  display: inline-block;
+  color: #eee;
+  font-size: 1.8rem;
+  padding-bottom: 20px;
+}
+
+.code-link {
+  display: inline-block;
+  float: right;
+  color: #405546de;
+}
+
+.code-link:hover {
+  color: #2e2e2e;
+}
+
+.project p {
+  color: #eee;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+.img-carousel {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-btn {
+  color: #405546de;
+  margin: 5%
+}
+
+.carousel-btn:hover {
+  color: #2e2e2e;
+}
+
+.project .img-main {
+  width: 42%;
+  z-index: 1;
+}
+
+.project .img-preview {
+  width: 30%;
+  -webkit-filter: blur(0.7px) grayscale(0.5); /* Safari 6.0 - 9.0 */
+  filter: blur(0.7px) grayscale(0.5);
+  z-index: 0;
+}
+
+.project .img-right {
+  border: 1px solid #ccc;
+  display: inline;
+  float: right;
+  margin-left: -15%;
+}
+
+.project .img-left {
+  border: 1px solid #ccc;
+  display: inline;
+  float: left;
+  margin-right: -15%;
 }
 
 /* Contact --------------------------------------------------------------- */
