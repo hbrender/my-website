@@ -11,8 +11,10 @@ function Projects() {
           <Project
             key={project.key}
             name={project.name}
+            category={project.category}
             description={project.description}
-            srcCode={project.srcCode}
+            linkImg={project.linkImg}
+            link={project.link}
             images={project.images}
           />
         ))}

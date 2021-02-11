@@ -31,7 +31,8 @@ function Project(props) {
     <div className="project">
       <div>
         <h3>{props.name}</h3>
-        <a target="_blank" rel="noreferrer" className="code-link" href={props.srcCode}><i className="fab fa-2x fa-github"></i></a>
+        <a target="_blank" rel="noreferrer" className="code-link" href={props.link}><i className={"fab fa-2x " + props.linkImg}></i></a>
+        <p className="project-category">{props.category}</p>
         <p>{props.description}</p>
         <div className="img-carousel">
         <div onClick={backwardClick} className="carousel-btn"><i onClick={backwardClick} className="fas fa-2x fa-angle-left"></i></div>
