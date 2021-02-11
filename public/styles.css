@@ -151,6 +151,7 @@ nav {
   position: fixed;
   right: 0;
   padding: 16px;
+  z-index: 2;
 }
 
 /* Home --------------------------------------------------------------- */
@@ -270,18 +271,22 @@ nav {
 /* Project --------------------------------------------------------------- */
 
 .project {
-  background-color: #84af91de;
+  /* background-color: #84af91de; */
+  background-color: #eee;
+  border: solid 4px #84af91de;
+
   padding: 2% 3%;
-  border-radius: 20px;
+  border-radius: 15px;
   width: 48%;
-  margin: 1%;
+  margin: 1% 1% 4%;
   float: left;
 }
 
 .project h3 {
   font-family: 'Lexend Mega', sans-serif;
   display: inline-block;
-  color: #eee;
+  /* color: #eee; */
+  color: #577460ee;
   font-size: 1.8rem;
   padding-bottom: 20px;
 }
@@ -297,7 +302,7 @@ nav {
 }
 
 .project p {
-  color: #eee;
+  /* color: #eee; */
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 300;
@@ -312,7 +317,9 @@ nav {
 
 .carousel-btn {
   color: #405546de;
-  margin: 5%
+  display: block;
+  margin: 5%;
+  width: 8%;
 }
 
 .carousel-btn:hover {
@@ -445,6 +452,7 @@ footer {
     visibility: hidden;
     width: 280px;
     justify-content: unset;
+    z-index: 2;
   }
 
   .nav-links li {
@@ -515,6 +523,14 @@ footer {
     padding: 2% 10%;
   }
 
+  /* Projects */
+
+  .project {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
   /* Contact */
   .contact-email {
     width: 100%;
@@ -526,6 +542,14 @@ footer {
     margin-left: 0;
   }
 } 
+
+@media screen and (max-width: 600px) {
+  .project {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
 
 @media screen and (max-width: 480px) { 
   /* Navbar */
@@ -543,6 +567,33 @@ footer {
     line-height: 1.8rem;
   }
 
+  /* Projects */
+
+  .project .img-main {
+    width: 52%;
+    z-index: 1;
+  }
+  
+  .project .img-preview {
+    width: 40%;
+    -webkit-filter: blur(0.7px) grayscale(0.5); /* Safari 6.0 - 9.0 */
+    filter: blur(0.7px) grayscale(0.5);
+    z-index: 0;
+  }
+  
+  .project .img-right {
+    border: 1px solid #ccc;
+    display: inline;
+    float: right;
+    margin-left: -25%;
+  }
+  
+  .project .img-left {
+    border: 1px solid #ccc;
+    display: inline;
+    float: left;
+    margin-right: -25%;
+  }
 }
 
 @media screen and (max-width: 320px) { 
