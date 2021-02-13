@@ -18,8 +18,6 @@ function Projects() {
             images={project.images}
           />
         ))}
-      {/* <Project />
-      <Project /> */}
     </div>
   );
 }

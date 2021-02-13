@@ -19,7 +19,6 @@ h1 {
 h2 {
   color: #577460de;
   font-size: 3rem;
-  /* font-size: 5rem; */
   letter-spacing: 6px;
   padding-bottom: 3%;
 }
@@ -75,26 +74,6 @@ h2 .first-letter {
   font-size: 1rem;
 }
 
-/* Columns
-
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-[class*="col-"] {
-  float: left;
-  /* border: 1px solid red; */
-/* } */ 
-
 /* Navbar ------------------------------------------------------------ */
 
 nav {
@@ -110,13 +89,6 @@ nav {
   width: 40px;
   margin-left: 1.5%;
 }
-
-/* .brand {
-  color: #eee;
-  letter-spacing: 3px;
-  font-size: 2rem;
-  float: left
-} */
 
 .nav-links {
   display: flex;
@@ -159,7 +131,6 @@ nav {
 #home {
   margin-top: 15vh;
   height: 80vh;
-  /* justify-self: center; */
 }
 
 .home-text {
@@ -174,13 +145,11 @@ nav {
 
 .name {
   font-size: 6vw;
-  /* font-size: 5rem; */
   letter-spacing: 6px;
   margin: 3% 5%;
 }
 
 #home .first-letter{
-  /* font-size: 6.5rem; */
   font-size: 7.4vw;
   padding-right: 6px;
 }
@@ -202,16 +171,6 @@ nav {
   margin: 5%;
 }
 
-/* .home-buttons a {
-  display: inline-block;
-  padding: 12px 15px;
-  margin-right: 5%;
-  text-align: center;
-  letter-spacing: 2px;
-  border-radius: 7px;
-  font-size: 1rem;
-} */
-
 .button-light {
   background-color: #eee;
   color: #577460ee;
@@ -228,8 +187,6 @@ nav {
 #about {
   display: inline-block;
   padding: 3% 5%;
-  /* height: 100vh; */
-  /* background-color:  #84af9148; */
 }
 
 .about-content {
@@ -363,7 +320,6 @@ nav {
 /* Contact --------------------------------------------------------------- */
 
 #contact {
-  /* display: inline-block; */
   width: 100%;
   padding: 3% 5%;
 }
@@ -488,7 +444,6 @@ footer {
   
   .home-text {
     width: 100%;
-    /* text-align: center; */
   }
   
   .home-img {
@@ -502,12 +457,10 @@ footer {
 
   .name {
     font-size: 9vw;
-    /* font-size: 5rem; */
     letter-spacing: 3px;
   }
   
   #home .first-letter{
-    /* font-size: 6.5rem; */
     font-size: 10.4vw;
     padding-right: 6px;
   }
@@ -612,7 +565,4 @@ footer {
   .nav-links {
     font-size: 1rem;
   }
-  
-  /* Home */
-
 }
