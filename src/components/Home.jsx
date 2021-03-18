@@ -18,7 +18,7 @@ function Home() {
       </div>
 
       <div className="home-img">
-        <img className="laptop-img" src="images/laptopanim4.gif" alt="coding gif" />
+        <img className="laptop-img" src="images/laptopanim4.gif" alt="Coding gif" />
       </div>
     </div>
   );

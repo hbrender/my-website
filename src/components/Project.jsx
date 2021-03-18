@@ -28,6 +28,8 @@ function Project(props) {
   }
 
   return (
+    //let [key, category, description, linkImg, link, images] = props;
+  
     <div className="project">
       <div>
         <h3>{props.name}</h3>
@@ -36,9 +38,9 @@ function Project(props) {
         <p>{props.description}</p>
         <div className="img-carousel">
         <div onClick={backwardClick} className="carousel-btn"><i onClick={backwardClick} className="fas fa-2x fa-angle-left"></i></div>
-          <img className="img-preview img-left" src={"images/" + props.images[getPreviousIndex()]} alt="1"></img>
-          <img className="img-main" src={"images/" + props.images[currImgIndex]} alt="2"></img>
-          <img className="img-preview img-right" src={"images/" + props.images[getFutureIndex()]} alt="3"></img>
+          <img className="img-preview img-left" src={"images/" + props.images[getPreviousIndex()]["src"]} alt={props.images[getPreviousIndex()]["alt"]}></img>
+          <img className="img-main" src={"images/" + props.images[currImgIndex]["src"]} alt={props.images[currImgIndex]["alt"]}></img>
+          <img className="img-preview img-right" src={"images/" + props.images[getFutureIndex()]["src"]} alt={props.images[getFutureIndex()]["alt"]}></img>
           <div onClick={forwardClick} className="carousel-btn"><i className="fas fa-2x fa-angle-right"></i></div>
         </div>
       </div>

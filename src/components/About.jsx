@@ -10,7 +10,7 @@ function About() {
         <p>When I am not coding, you can catch me drawing, painting, crafting or walking my dog Millie! </p>
       </div>
       <div className="about-img">
-        <img src="images/profile.png" alt="profile"></img>
+        <img src="images/profile.png" alt="Photo of Hanna"></img>
       </div>
     </div>
   );

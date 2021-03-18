@@ -8,12 +8,12 @@ const projects = [
     linkImg: "fa-google-play",  
     link: "https://play.google.com/store/apps/details?id=com.qcm.mybubbl",
     images: [
-      "mybubbl1.png",
-      "mybubbl2.png",
-      "mybubbl3.png",
-      "mybubbl4.png",
-      "mybubbl5.png"
-    ] 
+      {'src': "mybubbl1.png", 'alt': "Main screen of MyBubbl mobile app"},
+      {'src': "mybubbl2.png", 'alt': "Tutorial screen of MyBubbl mobile app"},
+      {'src': "mybubbl3.png", 'alt': "MyBubbl mobile app Screen with List of bubble bursts"},
+      {'src': "mybubbl4.png", 'alt': "Contacts screen of MyBubbl mobile app"},
+      {'src': "mybubbl5.png", 'alt': "Splash screen of MyBubbl mobile app"}
+    ]
   },
   {
     key: 2,
@@ -24,10 +24,10 @@ const projects = [
     linkImg: "fa-github",
     link: "https://github.com/hbrender/spirodvt-android-app",
     images: [
-      "spirodvt1.png",
-      "spirodvt4.png",
-      "spirodvt3.png",
-      "spirodvt2.png"
+      {'src': "spirodvt1.png", 'alt': "SpiroDVT screen that presents patient data in a graph and table"},
+      {'src': "spirodvt4.png", 'alt': "SpiroDVT screen displaying patient information in a form"},
+      {'src': "spirodvt3.png", 'alt': "Patient list screen of SpiroDVT mobile app"},
+      {'src': "spirodvt2.png", 'alt': "Login screen of SpiroDVT mobile app"}
     ]
   },
   {
@@ -39,11 +39,11 @@ const projects = [
     linkImg: "fa-github",
     link: "https://github.com/hbrender/RecipePal",
     images: [
-      "recipepal4.png",
-      "recipepal1.png",
-      "recipepal3.png",
-      "recipepal2.png"
-    ] 
+      {'src': "recipepal4.png", 'alt': "Interactive recipe screen in RecipePal mobile app"},
+      {'src': "recipepal1.png", 'alt': "Recipe list screen in RecipePal mobile app"},
+      {'src': "recipepal3.png", 'alt': "RecipePal screen displaying a recipe"},
+      {'src': "recipepal2.png", 'alt': "Grocery list screen in RecipePal mobile app"},
+    ]
   }
 ];
 
